@@ -1,0 +1,7 @@
+<ahrc = 'www.google.com'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[ahrc:ahrcFooter] > jnt:content, jmix:structuredContent
+ - footerImage (weakreference, picker[type='image']) mandatory
+
